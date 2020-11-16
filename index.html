@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app = 'ProductsApp'>
+<head>
+    <meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <title>Лабораторна робота номер 3</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+<div ng-controller="ProductsController" align="center">
+    <label>Введіть сніданок: </label>
+    <input type="text" ng-model="listProductiv">
+    <button ng-click="skazhyChesno()">Чи не забагато?</button>
+        <div class="text" align="center">{{messeg}}</div>
+</div>
+<div class="box">
+	<img src="https://simkl.in/fanart/13/1342236ea1a82ee55_0.jpg" style="width:600px; height:400px"/>
+
+</div>
+</div>
+
+</body>
+</html>
